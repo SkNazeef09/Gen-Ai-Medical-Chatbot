@@ -7,7 +7,7 @@ from src.prompt import system_prompt
 HF_TOKEN = os.getenv("HF_TOKEN")
 
 if not HF_TOKEN:
-    print("⚠️  Warning: HF_TOKEN not found in environment variables.")
+    print("Warning: HF_TOKEN not found in environment variables.")
     print("   → The app will run in local mode, but Hugging Face API features won't work.")
 
 # --- FastAPI app initialization ---
@@ -37,3 +37,4 @@ async def chat(request: Request):
     # return {"answer": response["answer"]}
 
     return {"answer": "Example answer (replace with real RAG logic)"}
+
