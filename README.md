@@ -1,5 +1,5 @@
 # Gen-Ai-Medical-Chatbot
-# Gen-AI Medical Chatbot
+
 
 An **AI-powered medical assistant** that combines **Generative AI** with **medical knowledge retrieval** to provide context-aware, human-like responses to health-related queries.  
 This chatbot is built using **LangChain**, **OpenAI GPT models**, and **vector databases** like Pinecone or FAISS.  
